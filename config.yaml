@@ -3,8 +3,8 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
+  title: Jacob CV
+  author: Jobo
   description: Website title
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
@@ -24,34 +24,19 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Jacob de Jesús Angel Villanueva."
+    tagline: Software developer Junior
+    location: 
     photo: profile.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "www.linkedin.com/in/jacob-dejesús-angel-villanueva-8aba8b201"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/joboxd"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,81 +49,48 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: I specialize in technologies such as JavaScript, HTML, CSS, and frameworks like [Angular](https://angular.dev/), [React](https://es.react.dev/), and [Spring Boot.](https://spring.io/projects/spring-boot) I am passionate about solving complex problems and continuously learning new tools and languages. I focus on code quality, teamwork, and continuous improvement. I am looking for opportunities to further develop my skills and contribute to innovative projects. 
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Junior Developer
+        dates: 2023 - *Present*
+        url: https://www.tecnomotum.com.mx/
+        company: TECNOMOTUM
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+          - Requirement gathering with users
+          - Improving existing processes from other areas through software development specialized in their needs
+          - Mentoring other team members
+          - Deployment of backend and frontend applications
+          - Creating queries for relational and non-relational databases
+          - Creating relational UML diagrams
+          - Migrating GitHub repositories
+          - [Nocode Apps (Appsheet)](https://about.appsheet.com/home/)
+      - position: PMO Trainee
+        dates: 2022 - 2023
+        url: "https://www.tenaristamsa.com/es"
+        company: TENARIS TAMSA
+        details: |1-
+          - Creation and support to Excel Macros
+          - Mentoring other team members about how to dev Macros
+          - Daily proccess to update the Customers' files
+          - Improving existing processes
+          - Optimization of loading, unloading, and updating times for documents
+          - [NocodeApps (PowerApps)](https://www.microsoft.com/es-es/power-platform/products/power-apps)
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+      - degree: Bachelor's Degree in Computer Systems Engineering
+        college: Instituto Tecnologico de Orizaba
+        dates: 2017 - 2022
+  
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
+      - title: 
         url: "#"
         description: Description of the project
       - title: Project 2
@@ -155,16 +107,19 @@ params:
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - skill: "- Angular"
+      - skill: "- ReactJS"
+      - skill: "- SpringBoot"
+      - skill: "- Docker"
+      - skill: "- GCP(Artifact Registry, CloudRun, Jobs, Firebase, Firestore)"
+      - skill: "- Git, GitHub, GitLab"
+      - skill: "- SQL, MYSQL, POSTGRESQL"
+      - skill: "- JIRA"
+      - skill: "- Appsheet"
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
-    list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+    list: 
+      - hobby: Gaming
+      - hobby: Reading
+      - hobby: Walking
