@@ -1,4 +1,4 @@
-baseURL: https://aafu.pages.dev/
+baseURL: https://JoboPortfolio/
 languageCode: en-us
 build:
   writeStats: true
@@ -116,6 +116,7 @@ params:
       - skill: "- SQL, MYSQL, POSTGRESQL"
       - skill: "- JIRA"
       - skill: "- Appsheet"
+      - skill: "- English B1+"
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
