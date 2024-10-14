@@ -90,18 +90,19 @@ params:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: 
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+    - title: Netsuite Integrations
+      description: Creation of ETLs to connect Netsuite with other Motum platforms (Java)
+    - title: Inventory Management
+      description: Management of IT assets – Support in AppSheet
+    - title: Calculate Commissions ST
+      description: Complex system to manage technical support commissions (Angular/Java/MySQL)
+    - title: Qualitas System
+      description: System to display Qualitas subscription details (ReactJS/Java/PostgreSQL)
+    - title: Send Invoices
+      description: Java application to send invoices to customers from Excel files
+    - title: Send Uptime
+    description: Java application to send ticket summaries to Motum’s customers using two Excel files for the CSM department
+
   skill:
     title: Skills
     panelId: skill-panel
