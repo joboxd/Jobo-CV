@@ -27,7 +27,7 @@ params:
     name: "Jacob de Jesús Angel Villanueva."
     tagline: Software developer Junior
     location: 
-    photo: profile.jpg
+    photo: Jobo-foto-cv.jpg
   social:
     title: Links
     list:
@@ -101,7 +101,7 @@ params:
     - title: Send Invoices
       description: Java application to send invoices to customers from Excel files
     - title: Send Uptime
-    description: Java application to send ticket summaries to Motum’s customers using two Excel files for the CSM department
+      description: Java application to send ticket summaries to Motum’s customers using two Excel files for the CSM department
 
   skill:
     title: Skills
@@ -119,9 +119,10 @@ params:
       - skill: "- Appsheet"
       - skill: "- English B1+"
   hobby:
-    title: Hobbies
-    icon: fas fa-gamepad
+    title: In progress
+    icon: fas fa-code
     list: 
-      - hobby: Gaming
-      - hobby: Reading
-      - hobby: Walking
+      - hobby: "- DevOps"
+      - hobby: "- Jenkins"
+      - hobby: "- CI/CD"
+      - hobby: "- AWS"
